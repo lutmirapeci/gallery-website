@@ -1,2 +1,0 @@
-# gallery-website
-Sass project
