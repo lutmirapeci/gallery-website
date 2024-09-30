@@ -1,0 +1,35 @@
+@use "../abstracts/variables" as var;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  gap: var.$gutter-base;
+  height: 100%;
+
+  @media (max-width: 425px) {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    gap: 0;
+  }
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+  margin-top: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
